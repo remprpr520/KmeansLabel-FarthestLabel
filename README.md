@@ -6,7 +6,9 @@
 本实验基于框架：https://github.com/aiim-research/ERASURE<br>
 在此处仅将有修改或新增的部分上传<br>
 配置时请先将clone基础的ERASURE项目，再将./erasure文件夹覆盖<br>
-本实验的python环境已从conda中导出至./requirements.txt，精确到具体版本以确保一致
+本实验的python环境已从conda中导出至./requirements.txt，精确到具体版本以确保能够一致，但实际过程中对版本应该没有太多限制<br>
+其中由于使用的gpu版本的pytorch所以无法直接一键安装环境，同时注意需要和cuda版本对应
+
 ### 2.运行
 ./configs文件夹中的配置文件以论文章节编号，配置文件与论文章节对应<br>
 如./3.5 Image data/3.5.5.cifar10_p1.jsonc对应论文3.5.5节CIFAR10数据集实验<br>
