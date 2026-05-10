@@ -11,5 +11,5 @@
 
 ### 2.运行
 ./configs文件夹中的配置文件以论文章节编号，配置文件与论文章节对应<br>
-如./3.5 Image data/3.5.5.cifar10_p1.jsonc对应论文3.5.5节CIFAR10数据集实验<br>
+如./4.3 Image data/4.3.5.cifar10_p1.jsonc对应论文4.3.5节CIFAR10数据集实验<br>
 由于实验条件简陋，显存资源不足，部分实验进行了分片（如cifar10_p1、cifar10_p2、cifar10_p3），可以将配置文件中"unlearners"的内容合并，该框架可以确保其结果不受影响<br>
